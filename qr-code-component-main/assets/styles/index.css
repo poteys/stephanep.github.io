@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: font1, sans-serif;
+}
+
+body {
+  background: hsl(212deg, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+body main {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0deg, 0%, 100%);
+  padding: 25px;
+  border-radius: 15px;
+}
+body main .main-card-div {
+  text-align: center;
+}
+body main .main-card-div .main-card-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+body main .main-card-div h2 {
+  color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+}
+body main .main-card-div p {
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+  font-size: 18px;
+}
+body main .main-card-div img,
+body main .main-card-div h2,
+body main .main-card-div p {
+  margin-bottom: 20px;
+}
+body .attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+}
+body .attribution a {
+  text-decoration: none;
+  color: hsl(218deg, 44%, 22%);
+}/*# sourceMappingURL=index.css.map */

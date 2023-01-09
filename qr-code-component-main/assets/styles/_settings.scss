@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+// COLORS SECTION
+$color1: hsl(0, 0%, 100%);
+$color2: hsl(212, 45%, 89%);
+$color3: hsl(220, 15%, 55%);
+$color4: hsl(218, 44%, 22%);
+
+// FONTS FAMILY SECTION
+$font1: font1, sans-serif;
+
+// FONTS WEIGHTS SECTION
+$weight1: 400;
+$weight2: 700;
+
+// FONTS SIZE SECTION
+$paragraph: 18px;
+
+@mixin borderRadius {
+  border-radius: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: $font1;
+}
+
+body {
+  background: $color2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+body {
+  main {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $color1;
+    padding: 25px;
+    @include borderRadius;
+
+    .main-card-div {
+      text-align: center;
+
+      .main-card-img img {
+        width: 100%;
+        @include borderRadius;
+      }
+
+      h2 {
+        color: $color4;
+        font-weight: $weight2;
+      }
+
+      p {
+        color: $color3;
+        font-weight: $weight1;
+        font-size: $paragraph;
+      }
+
+      img,
+      h2,
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 11px;
+
+    a {
+      text-decoration: none;
+      color: $color4;
+    }
+  }
+}
